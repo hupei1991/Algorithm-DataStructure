@@ -55,8 +55,6 @@ def merge_sort_interative(unsorted_list):
     return sorted_list
 
 import random
-
-
 def makeTestCase(n):
     """
     making test case of an array with length of n
@@ -99,6 +97,7 @@ if __name__ == "__main__":
     print("Running Time: " + str(time.time() - start_time) + " second")
 
     passed = True
+    start_time = time.time()
     for testcase in testcases:
         sorted_list = merge_sort_interative(testcase)
         if not validate(sorted_list):
