@@ -10,3 +10,4 @@ _Currently in Python Only_
 
 ## Data Structure
 * [Array (Sequential Linear List)](/DataStructure/Array.py)
+* [Linked List (Non-Sequential Linear List)](/DataStructure/LinkedList.py)
