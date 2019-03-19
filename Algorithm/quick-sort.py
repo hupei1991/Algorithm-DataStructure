@@ -1,6 +1,6 @@
 def quick_sort_recursive(unsorted_list):
     """
-    quick sort unsorted list recursively
+    quick sort unsorted list recursively at space O(n) (in-place solution of O(1)), time O(nlogn)
     :param unsorted_list: unsorted list
     :return: sorted list
     """

@@ -24,7 +24,7 @@ def merge(first_list, second_list):
 
 def merge_sort_recursive(unsorted_list):
     """
-    The core function of merge sort in recursive way
+    The core function of merge sort in recursive way at space O(n), at time O(nlogn)
     :param unsorted_list: unsorted original list
     :return: sorted list
     """
@@ -38,7 +38,7 @@ def merge_sort_recursive(unsorted_list):
 
 def merge_sort_interative(unsorted_list):
     """
-    The core function of merge sort in iterative way
+    The core function of merge sort in iterative way at space O(n), at time O(nlogn)
     :param unsorted_list: unsorted list
     :return: sorted list
     """

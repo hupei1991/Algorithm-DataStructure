@@ -1,6 +1,6 @@
 def quick_select(unsorted_list, start, end, k):
     """
-    quick select utilizing partition
+    quick select utilizing partition at space O(1), time O(nlogn) (best O(n), worst O(n^2))
     :param unsorted_list: the unsorted list
     :param start: start index
     :param end: end index

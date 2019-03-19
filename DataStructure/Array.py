@@ -25,28 +25,21 @@ class Array:
     def __str__(self):
         return list.__str__(self.__elements__)
 
+    def __len__(self):
+        return self.__length__
+
     def get(self, index):
         """
-        get element at index at O(1)
+        get element at index at time O(1)
         :param index: index
         :return: the element at index
         """
         assert 0 <= index < self.__length__
         return self.__elements__[0 + index]
 
-    def put(self, index, element):
-        """
-        put element at index at O(1)
-        :param index: index
-        :param element: the element
-        :return: None
-        """
-        assert 0 <= index < self.__length__
-        self.__elements__[0 + index] = element
-
     def insert(self, index, element):
         """
-        insert element before index at O(n)
+        insert element before index at time O(n)
         :param index: index
         :param element: the element tobe inserted
         :return: None
@@ -60,7 +53,7 @@ class Array:
 
     def find(self, element):
         """
-        find the index of corresponding element at O(n)
+        find the index of corresponding element at time O(n)
         :param element: the element
         :return: the index if found, -1 if not found
         """
@@ -71,18 +64,17 @@ class Array:
 
     def update(self, index, element):
         """
-        update element at index at O(1)
+        update element at index at time O(1)
         :param index:
         :param element:
         :return:
         """
         assert 0 <= index < self.__length__
-        self.__elements__[0 + index] = element
-
+        self.__elements__[0 + index] = elemen
 
     def delete(self, index):
         """
-        delete element at index at O(n)
+        delete element at index at time O(n)
         :param index: index
         :return: None
         """
