@@ -1,5 +1,7 @@
-# Algorithm-DataStructure
+# Algorithms and Data Structures
 Algorithm and Data Structure implementation and practice
+
+_Currently in Python Only_
 
 ## Algorithm
 * [Merge Sort](/Algorithm/merge-sort.py)
@@ -7,3 +9,4 @@ Algorithm and Data Structure implementation and practice
 * [Quick Select](/Algorithm/quick-select.py)
 
 ## Data Structure
+* [Array (Sequential Linear List)](/DataStructure/Array.py)
