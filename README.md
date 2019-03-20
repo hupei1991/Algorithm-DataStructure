@@ -11,3 +11,4 @@ _Currently in Python Only_
 ## Data Structure
 * [Array (Sequential Linear List)](/DataStructure/Array.py)
 * [Linked List (Non-Sequential Linear List)](/DataStructure/LinkedList.py)
+* [Stack (Approaches using both array and linked list)](/DataStructure/Stack.py)
